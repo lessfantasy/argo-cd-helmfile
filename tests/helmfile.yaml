@@ -1,0 +1,7 @@
+releases:
+  - name: renovate-smoke-test
+    namespace: default
+    chart: ./chart
+    installed: true
+    values:
+      - message: "integration-test"

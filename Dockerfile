@@ -55,18 +55,41 @@ RUN addgroup -g "${ARGOCD_USER_ID}" argocd && \
 # Tool versions
 # -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
+# Tool versions — managed by Renovate
+# -----------------------------------------------------------------------------
+
+# renovate: datasource=github-releases depName=FiloSottile/age
 ARG AGE_VERSION="v1.3.2"
+
+# renovate: datasource=github-releases depName=helm/helm
 ARG HELM_VERSION="v4.2.4"
+
+# renovate: datasource=github-releases depName=helmfile/helmfile extractVersion=^v(?<version>.*)$
 ARG HELMFILE_VERSION="1.7.4"
+
+# renovate: datasource=github-releases depName=kubernetes-sigs/kustomize extractVersion=^kustomize/v(?<version>.*)$
 ARG KUSTOMIZE_VERSION="5.8.1"
+
+# renovate: datasource=github-releases depName=getsops/sops
 ARG SOPS_VERSION="v3.13.3"
+
+# renovate: datasource=github-releases depName=mikefarah/yq
 ARG YQ_VERSION="v4.53.6"
 
+# renovate: datasource=github-releases depName=kubernetes/kubernetes
 ARG KUBECTL_VERSION="v1.37.0"
+
+# renovate: datasource=github-releases depName=bitnami-labs/sealed-secrets extractVersion=^v(?<version>.*)$
 ARG KUBESEAL_VERSION="0.39.1"
 
+# renovate: datasource=github-releases depName=databus23/helm-diff extractVersion=^v(?<version>.*)$
 ARG HELM_DIFF_VERSION="3.15.12"
+
+# renovate: datasource=github-releases depName=aslafy-z/helm-git extractVersion=^v(?<version>.*)$
 ARG HELM_GIT_VERSION="1.5.2"
+
+# renovate: datasource=github-releases depName=jkroepke/helm-secrets extractVersion=^v(?<version>.*)$
 ARG HELM_SECRETS_VERSION="4.7.7"
 
 # -----------------------------------------------------------------------------

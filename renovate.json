@@ -1,0 +1,31 @@
+
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "customManagers:dockerfileVersions"
+  ],
+  "timezone": "Europe/London",
+  "schedule": ["at any time"],
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": false,
+  "ignoreTests": false,
+  "prConcurrentLimit": 3,
+  "minimumReleaseAge": "1 day",
+  "internalChecksFilter": "strict",
+  "rebaseWhen": "behind-base-branch",
+  "labels": ["dependencies", "automerge"],
+  "packageRules": [
+    {
+      "description": "Independent updates for container tools",
+      "matchFileNames": ["Dockerfile"],
+      "groupName": null
+    },
+    {
+      "description": "Exclude unstable releases",
+      "matchFileNames": ["Dockerfile"],
+      "ignoreUnstable": true
+    }
+  ]
+}

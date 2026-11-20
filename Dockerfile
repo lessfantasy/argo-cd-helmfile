@@ -91,7 +91,7 @@ ARG HELM_DIFF_VERSION="3.15.15"
 ARG HELM_GIT_VERSION="1.5.2"
 
 # renovate: datasource=github-releases depName=jkroepke/helm-secrets extractVersion=^v(?<version>.*)$
-ARG HELM_SECRETS_VERSION="4.7.7"
+ARG HELM_SECRETS_VERSION="4.7.11"
 
 # -----------------------------------------------------------------------------
 # Install binaries

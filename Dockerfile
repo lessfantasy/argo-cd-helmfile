@@ -64,7 +64,7 @@ RUN addgroup -g "${ARGOCD_USER_ID}" argocd && \
 ARG AGE_VERSION="v1.3.2"
 
 # renovate: datasource=github-releases depName=helm/helm
-ARG HELM_VERSION="v4.2.4"
+ARG HELM_VERSION="v4.3.2"
 
 # renovate: datasource=github-releases depName=helmfile/helmfile extractVersion=^v(?<version>.*)$
 ARG HELMFILE_VERSION="1.7.4"

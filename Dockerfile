@@ -76,7 +76,7 @@ ARG KUSTOMIZE_VERSION="5.8.3"
 ARG SOPS_VERSION="v3.13.3"
 
 # renovate: datasource=github-releases depName=mikefarah/yq
-ARG YQ_VERSION="v4.53.6"
+ARG YQ_VERSION="v4.54.3"
 
 # renovate: datasource=github-releases depName=kubernetes/kubernetes
 ARG KUBECTL_VERSION="v1.37.2"

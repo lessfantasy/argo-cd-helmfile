@@ -82,7 +82,7 @@ ARG YQ_VERSION="v4.53.6"
 ARG KUBECTL_VERSION="v1.37.2"
 
 # renovate: datasource=github-releases depName=bitnami-labs/sealed-secrets extractVersion=^v(?<version>.*)$
-ARG KUBESEAL_VERSION="0.39.1"
+ARG KUBESEAL_VERSION="0.41.2"
 
 # renovate: datasource=github-releases depName=databus23/helm-diff extractVersion=^v(?<version>.*)$
 ARG HELM_DIFF_VERSION="3.15.15"

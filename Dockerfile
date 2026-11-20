@@ -67,7 +67,7 @@ ARG AGE_VERSION="v1.3.2"
 ARG HELM_VERSION="v4.3.2"
 
 # renovate: datasource=github-releases depName=helmfile/helmfile extractVersion=^v(?<version>.*)$
-ARG HELMFILE_VERSION="1.7.4"
+ARG HELMFILE_VERSION="1.8.4"
 
 # renovate: datasource=github-releases depName=kubernetes-sigs/kustomize extractVersion=^kustomize/v(?<version>.*)$
 ARG KUSTOMIZE_VERSION="5.8.3"

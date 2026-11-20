@@ -79,7 +79,7 @@ ARG SOPS_VERSION="v3.13.3"
 ARG YQ_VERSION="v4.53.6"
 
 # renovate: datasource=github-releases depName=kubernetes/kubernetes
-ARG KUBECTL_VERSION="v1.37.0"
+ARG KUBECTL_VERSION="v1.37.2"
 
 # renovate: datasource=github-releases depName=bitnami-labs/sealed-secrets extractVersion=^v(?<version>.*)$
 ARG KUBESEAL_VERSION="0.39.1"

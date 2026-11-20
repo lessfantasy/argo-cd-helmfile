@@ -85,7 +85,7 @@ ARG KUBECTL_VERSION="v1.37.0"
 ARG KUBESEAL_VERSION="0.39.1"
 
 # renovate: datasource=github-releases depName=databus23/helm-diff extractVersion=^v(?<version>.*)$
-ARG HELM_DIFF_VERSION="3.15.12"
+ARG HELM_DIFF_VERSION="3.15.15"
 
 # renovate: datasource=github-releases depName=aslafy-z/helm-git extractVersion=^v(?<version>.*)$
 ARG HELM_GIT_VERSION="1.5.2"
